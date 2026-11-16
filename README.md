@@ -1,20 +1,31 @@
 # Flutter AI Starter Kit · AI 对话 + 订阅变现 UI 模板
 
 <div align="center">
-  <img src="assets/cover-showcase.png" width="900" alt="Flutter AI Starter Kit — AI chat workspace and subscription paywall" />
+  <img src="assets/showcase/5-screens-overview.png" width="900" alt="Flutter AI Starter Kit — 引导页、登录、AI 对话、订阅付费墙、设置五屏总览" />
 </div>
 
 <div align="center">
 
 **一套可以直接上线的 Flutter AI 对话 App 界面：引导页 → 登录 → 流式对话 → 订阅付费墙 → 设置，五屏做完。**
 
-Flutter 3.22+ · Material 3 · 深浅色 · 中英双语 · 零第三方依赖 · 22 个 widget 测试全部通过 · `flutter analyze` 0 issue
+Flutter 3.22+ · Material 3 · 深浅色 · 中英双语 · 零第三方依赖 · 31 个 widget 测试全部通过 · `flutter analyze` 0 issue
 
 [中文](#中文) · [English](#english)
 
 </div>
 
 > **本仓库是产品展示主页，不包含 Pro 版源码。** 完整可运行的工程（`lib/`、`test/`、`pubspec.yaml` 全套）在私有仓库中维护，购买后交付。获取方式见 [获取完整 Pro 源码](#获取完整-pro-源码)。
+
+---
+
+## 交互演示 / Live Demos
+
+<p align="center">
+  <img src="assets/showcase/demo-onboarding-auth.gif" width="300" alt="引导页 → 登录 / 注册切换的交互动图" />
+  <img src="assets/showcase/demo-chat-paywall.gif" width="300" alt="流式对话 → 付费墙解锁 Pro 的交互动图" />
+</p>
+
+<p align="center"><sub>左：引导页 → 登录 / 注册　·　右：流式对话 → 订阅付费墙　（真机录屏，不是静态拼图）</sub></p>
 
 ---
 
@@ -47,6 +58,7 @@ Flutter 3.22+ · Material 3 · 深浅色 · 中英双语 · 零第三方依赖 �
 | 🎁 **免费额度拦截** | 对话页顶部常驻「免费额度剩余 N 条」，用完的瞬间自动唤起付费墙——变现闭环的现成演示 |
 | 🌗 **深色 + 浅色** | 顶栏一键切换，跟随系统 / 浅色 / 深色三态，切换即时生效并带过渡动画，状态栏图标明暗跟随 |
 | 🌏 **中英双语随时切换** | 所有文案集中在一处文案表，运行中切换语言、无需重启，不是"写死两份界面" |
+| ⌨️ **键盘收得干净** | 点发送、点空白处、拖动列表、开模型弹层之前键盘都会平滑落下，对话流始终贴底，输入框不会被挡住 |
 | 🧱 **零第三方依赖** | 状态管理用 `ChangeNotifier + InheritedNotifier`，不引入 provider / bloc / getx；`flutter pub get` 不会有版本冲突，长期维护成本低 |
 | 📱 **按手机尺寸校准** | 320 / 360 / 430 dp 三档宽度与 1.3× 大字号下均无溢出，宽屏也能正常布局 |
 
@@ -66,10 +78,10 @@ Flutter 3.22+ · Material 3 · 深浅色 · 中英双语 · 零第三方依赖 �
 
 ```
 flutter analyze   →  No issues found!          (Flutter 3.50.0 / Dart 3.14.0)
-flutter test      →  22 tests, All tests passed!
+flutter test      →  31 tests, All tests passed!
 ```
 
-22 个 widget 测试覆盖：
+31 个 widget 测试覆盖：
 
 - 冒烟主流程：引导页 → 登录 → 对话 → 付费墙解锁 Pro
 - 流式回复与代码卡片渲染
@@ -79,6 +91,7 @@ flutter test      →  22 tests, All tests passed!
 - 320 / 360 / 430 dp 窄屏无溢出（顶栏、模型弹层、付费墙、设置）
 - 1.3× 大字号与宽屏布局
 - 浅色 / 深色下的状态栏图标可读性
+- 键盘收起：点发送、点空白处、拖列表、开模型弹层前都平滑落下，输入框不被遮住
 
 ### 变现闭环一览
 
@@ -134,6 +147,7 @@ A production-ready Flutter UI kit for AI chat apps — **onboarding → auth →
 - **Runtime bilingual switch** — every string lives in one copy table; switch zh / en without a restart.
 - **Zero dependencies** — `ChangeNotifier` + `InheritedNotifier` for state; no provider, bloc or getx, so `flutter pub get` can never drift.
 - **Calibrated for phones** — verified at 320 / 360 / 430 dp and at 1.3× text scale, and on wide screens.
+- **A keyboard that gets out of the way** — sending, tapping blank space, dragging the feed or opening a sheet all dismiss it smoothly, and the feed stays pinned to the bottom while it resizes.
 
 ### Specs
 
@@ -150,10 +164,10 @@ A production-ready Flutter UI kit for AI chat apps — **onboarding → auth →
 
 ```
 flutter analyze   →  No issues found!          (Flutter 3.50.0 / Dart 3.14.0)
-flutter test      →  22 tests, All tests passed!
+flutter test      →  31 tests, All tests passed!
 ```
 
-22 widget tests cover the smoke flow (onboarding → sign in → chat → paywall unlock), streaming and the code card, runtime language switch, the auth-tab and onboarding-indicator transitions, overflow at 320 / 360 / 430 dp, 1.3× text scale and wide screens, and status-bar legibility in both themes.
+31 widget tests cover the smoke flow (onboarding → sign in → chat → paywall unlock), streaming and the code card, runtime language switch, the auth-tab and onboarding-indicator transitions, overflow at 320 / 360 / 430 dp, 1.3× text scale and wide screens, status-bar legibility in both themes, and the keyboard dismissal polish (send, blank taps, list drags and opening a sheet).
 
 ### Get the full Pro source
 

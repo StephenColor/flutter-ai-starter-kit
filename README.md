@@ -45,7 +45,7 @@ Flutter 3.22+ · Material 3 · 深浅色 · 中英双语 · 零第三方依赖 �
 | **引导页 Onboarding** | 3 屏滑动引导，每屏一张纯代码绘制的 App 预览图（不依赖图片资源），跳过 / 下一步 / 开始使用，圆点指示器跟随手势平滑过渡 |
 | **登录注册 Auth** | 登录 ↔ 注册切换带动画、手机号 / 邮箱切换、密码显隐、表单校验、Apple / Google / 微信三方登录入口，窄屏与大字号下依然不溢出 |
 | **AI 工作台 Chat** | 提示词卡片、用户 / AI 气泡、**逐字流式回复**、带语言标签与一键复制的代码卡片、模型选择底部弹层、附件栏、清空对话、免费额度提醒 |
-| **付费墙 Paywall** | 渐变 Hero 区、月付 / 年付切换、`最划算 · -43%` 角标、月单价换算、免费版与 Pro 功能对比表、7 天免费试用 CTA、恢复购买、法务小字 |
+| **付费墙 Paywall** | 渐变 Hero 区、月付 / 年付切换、`最划算 · -45%` 角标、月单价换算、免费版与 Pro 功能对比表、7 天免费试用 CTA、恢复购买、法务小字 |
 | **设置 Settings** | 头像与 Pro 状态徽章、主题三态（跟随系统 / 浅色 / 深色）、中英切换、恢复购买、退出登录、协议与版本信息 |
 
 ### 功能亮点
@@ -98,7 +98,7 @@ flutter test      →  31 tests, All tests passed!
 ```
 用户对话 → 每发一条扣 1 次额度
         → 额度用完的瞬间唤起付费墙
-        → 年付方案默认选中（带 -43% 角标）
+        → 年付方案默认选中（带 -45% 角标）
         → 点「开始 7 天免费试用」→ 你的支付 SDK
         → 成功后 Pro 状态置为开启，全站 PRO 徽章点亮
 ```
@@ -109,7 +109,7 @@ flutter test      →  31 tests, All tests passed!
 
 本仓库只做产品展示，源代码不在公开仓库中。Pro 版包含完整可编译工程、全部注释与测试，许可见 [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md)。
 
-- **购买渠道**：售卖页正在上线中（Gumroad / 面包多），链接确认后会更新在这里。
+- **购买渠道**：Gumroad 售卖页正在完成收款审核与上线准备，正式链接确认后会更新在这里。
 - **在那之前**：可以直接在 [Issues](../../issues) 里留言说明需求，我会把购买方式与最新版本信息发给你。
 - **适合谁**：想在一两天内把一个 AI 对话 App 的界面做到可上架水准的独立开发者、外包团队、需要 demo 的创业者。
 
@@ -134,7 +134,7 @@ A production-ready Flutter UI kit for AI chat apps — **onboarding → auth →
 | **Onboarding** | Three swipeable pages, each with a code-drawn app preview (no image assets), skip / next / get started, an indicator that tracks the drag smoothly |
 | **Auth** | Sign in ↔ sign up switch with an animated transition, phone / email toggle, password visibility, validation, Apple / Google / WeChat entry points — no overflow at narrow widths or large text |
 | **Chat workspace** | Prompt chips, user / assistant bubbles, **token-by-token streaming reply**, copyable code card with a language label, model picker sheet, attachment bar, clear conversation, free-quota meter |
-| **Paywall** | Gradient hero, monthly / annual toggle, "Best value · −43%" badge, per-month equivalent, free-vs-Pro comparison, 7-day trial CTA, restore purchases, legal footnote |
+| **Paywall** | Gradient hero, monthly / annual toggle, "Best value · −45%" badge, per-month equivalent, free-vs-Pro comparison, 7-day trial CTA, restore purchases, legal footnote |
 | **Settings** | Avatar and Pro badge, three-state theme (system / light / dark), language switch, restore purchases, sign out, legal and version info |
 
 ### Highlights
@@ -173,7 +173,7 @@ flutter test      →  31 tests, All tests passed!
 
 The source is not in this public repository. The Pro edition ships the complete compilable project with comments and tests, under the [commercial licence](LICENSE-COMMERCIAL.md).
 
-- **Store page**: coming online (Gumroad / 面包多); the link will be posted here once it is live.
+- **Store page**: Gumroad listing is being finalized; the purchase link will be posted here once it is live.
 - **Meanwhile**: open an [issue](../../issues) with what you need and I will send the purchase details and current version.
 
 ### Licensing

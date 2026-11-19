@@ -1,6 +1,6 @@
 # Pro 版本商业许可协议 / Pro Commercial License
 
-> 适用于通过 Gumroad / 面包多 / 爱发电等渠道购买的 **Flutter AI Starter Kit Pro** 版本。
+> 适用于通过 [Gumroad](https://stephencolor.gumroad.com/l/flutter-ai-starter-kit) 购买的 **Flutter AI Starter Kit Pro** 版本（售价 $2.90）。
 > 本仓库为产品展示主页，仅含本许可协议、封面图与说明文档，不含源代码。
 
 ## 1. 授权内容

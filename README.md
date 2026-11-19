@@ -109,8 +109,8 @@ flutter test      →  31 tests, All tests passed!
 
 本仓库只做产品展示，源代码不在公开仓库中。Pro 版包含完整可编译工程、全部注释与测试，许可见 [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md)。
 
-- **购买渠道**：Gumroad 售卖页正在完成收款审核与上线准备，正式链接确认后会更新在这里。
-- **在那之前**：可以直接在 [Issues](../../issues) 里留言说明需求，我会把购买方式与最新版本信息发给你。
+- **购买链接**：[Gumroad · $2.90 早鸟价](https://stephencolor.gumroad.com/l/flutter-ai-starter-kit)（数字下载，付款后立即获得 `flutter-ai-starter-kit-pro-v1.0.zip`）
+- **交付内容**：完整可编译工程（15 个 Dart 文件）、`test/smoke_test.dart` 31 项测试、中英双语 README、商业许可文件与展示素材。
 - **适合谁**：想在一两天内把一个 AI 对话 App 的界面做到可上架水准的独立开发者、外包团队、需要 demo 的创业者。
 
 ### 许可
@@ -173,8 +173,8 @@ flutter test      →  31 tests, All tests passed!
 
 The source is not in this public repository. The Pro edition ships the complete compilable project with comments and tests, under the [commercial licence](LICENSE-COMMERCIAL.md).
 
-- **Store page**: Gumroad listing is being finalized; the purchase link will be posted here once it is live.
-- **Meanwhile**: open an [issue](../../issues) with what you need and I will send the purchase details and current version.
+- **Buy on Gumroad**: [$2.90 early-bird price](https://stephencolor.gumroad.com/l/flutter-ai-starter-kit) — instant download of `flutter-ai-starter-kit-pro-v1.0.zip`.
+- **What you get**: the complete compilable project (15 Dart files), 31 widget tests in `test/smoke_test.dart`, a bilingual README, the commercial licence and the showcase assets.
 
 ### Licensing
 
